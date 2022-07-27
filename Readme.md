@@ -1,7 +1,7 @@
 # Личный проект «Седона» 
 
-* Студент: [Даниил Кметь](https://up.htmlacademy.ru/adaptive/26/user/237031).
-* Наставник: `Неизвестно`.
+* Студент: [Даниил Кметь](https://htmlacademy.ru//profile/id237031).
+* Наставник: [Роман Марченко](https://htmlacademy.ru/profile/id505487).
 
 ---
 

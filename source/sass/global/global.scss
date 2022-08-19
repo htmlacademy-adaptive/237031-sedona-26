@@ -26,3 +26,16 @@ img {
   border: none;
   clip: rect(0 0 0 0);
 }
+
+.container {
+  width: 280px;
+  margin: 0 auto;
+
+  @media (min-width: $tablet-width) {
+    width: 768px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 1200px;
+  }
+}

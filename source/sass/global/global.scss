@@ -1,5 +1,4 @@
 html {
-  min-height: 320px;
   height: 100%;
   box-sizing: border-box;
 }
@@ -8,6 +7,20 @@ html {
 *::before,
 *::after {
   box-sizing: border-box;
+}
+
+.page__body {
+  min-height: 100%;
+  min-width: 320px;
+  margin: 0;
+
+  font-family: $main-font;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  color: $special-black;
+
+  background-color: $white;
 }
 
 img {
@@ -32,10 +45,10 @@ img {
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    width: 768px;
+    width: 648px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 1200px;
+    width: 960px;
   }
 }

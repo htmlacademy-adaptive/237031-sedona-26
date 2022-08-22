@@ -1,5 +1,7 @@
 .intro {
-  background-image: url("../../img/intro/back-mobile.jpg");
+  background-image: url("../../img/intro/back-mobile.jpg"),
+    url("../../img/intro/intro-triangle.svg");
+  background-color: $accent-blue;
   background-repeat: no-repeat;
   background-position: center;
   margin-bottom: 32px;

@@ -7,11 +7,11 @@
 }
 
 .site-list__link {
-  display: 0;
+  display: block;
   text-decoration: none;
   font-size: 18px;
   line-height: 26px;
-  color: $white;
+  color: $black;
 }
 
 .site-list__item {

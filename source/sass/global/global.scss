@@ -45,10 +45,10 @@ img {
   margin: 0 auto;
 
   @media (min-width: $tablet-width) {
-    width: 648px;
+    width: 768px;
   }
 
   @media (min-width: $desktop-width) {
-    width: 960px;
+    width: 1200px;
   }
 }

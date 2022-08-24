@@ -1,17 +1,26 @@
 .intro {
-  background-image: url("../../img/intro/back-mobile.jpg"),
-    url("../../img/intro/intro-triangle.svg");
-  background-color: $accent-blue;
-  background-repeat: no-repeat;
-  background-position: center;
+  padding: 90px 20px 85px;
+  box-sizing: border-box;
+  width: 100%;
   margin-bottom: 32px;
-
+  background: url("../../img/intro/intro-triangle.svg") bottom no-repeat,
+  url("../../img/intro/back-mobile.jpg") bottom/auto 100% no-repeat, $accent-blue;
 
   @media(min-width:$tablet-width) {
-    width: 768px;
-    margin: 0 auto;
+    padding: 77px 20px 90px;
   }
+
   @media(min-width: $desktop-width) {
-    width: 1200px;
+    background-size: 100% auto;
+  }
+}
+
+.intro__slogan-image {
+  display: block;
+  margin: 0 auto;
+  height: auto;
+
+  @media(min-width: $tablet-width) {
+    width: 461px;
   }
 }

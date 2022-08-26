@@ -1,24 +1,3 @@
-.info__image {
-  display: block;
-  margin-right: auto;
-  margin-left: auto;
-  margin-bottom: 32px;
-  padding-top: 90px;
-  padding-bottom: 85px;
-  background-color: #dbe9f2;
-  background-image:
-    linear-gradient(10deg, #ffffff 25%, transparent 25%),
-    linear-gradient(350deg, #ffffff 25%, transparent 25%),
-    url("../../img/intro/back-mobile.jpg");
-    background-repeat: no-repeat;
-    background-position:
-      0 83px,
-      0 83px,
-      50% 0;
-    background-size: cover;
-    order: -1;
-}
-
 .info__title {
   margin-top: 0;
   margin-bottom: 31px;

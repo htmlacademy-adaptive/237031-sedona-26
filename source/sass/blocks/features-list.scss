@@ -1,0 +1,44 @@
+.features-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.features-list__item {
+  &--color {
+    background-color: $blue;
+  }
+}
+
+.features-list__title {
+  margin-top: 0;
+  margin-bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+    &--color {
+        color: $white;
+      }
+}
+
+.features-list__number {
+  font-weight: 700;
+  margin-bottom: 17px;
+    &--color {
+      color: $white;
+    }
+}
+
+.features-list__description {
+  margin-bottom: 26px;
+    &--color {
+        color: $white;
+        margin-bottom: 40px;
+      }
+}
+
+.features-list__background {
+  background-color: $grey;
+}

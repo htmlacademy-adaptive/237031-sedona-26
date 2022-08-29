@@ -1,0 +1,29 @@
+.card {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.card__link {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.card__name {
+  margin-top: 0;
+  margin-bottom: 13px;
+
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.card__author {
+  margin-bottom: 11px;
+}
+
+.card__like-count {
+  margin-bottom: 25px;
+  font-weight: 700;
+}

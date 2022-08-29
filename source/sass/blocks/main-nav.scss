@@ -1,0 +1,9 @@
+.main-nav {
+  @media (min-width: $tablet-width) {
+    padding: 18px 28px 17px 50px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 18px 71px 17px 91px;
+  }
+}

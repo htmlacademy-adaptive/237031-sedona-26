@@ -1,3 +1,4 @@
-.main-header__logo {
-  display: block;
+.main-header {
+  display: flex;
+  flex-direction: column;
 }

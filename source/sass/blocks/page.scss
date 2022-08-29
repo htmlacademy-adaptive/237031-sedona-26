@@ -3,7 +3,7 @@
   max-width: 1200px;
   min-width: 320px;
   min-height: 100%;
-  display:flex;
+  display: flex;
   flex-direction: column;
   box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
   overflow: hidden;
@@ -11,4 +11,10 @@
 
 .page__main {
   flex-grow: 1;
+}
+
+.page__body {
+  min-height: 100%;
+  margin: 0;
+  background-color: $white;
 }

@@ -83,5 +83,9 @@
   display: block;
   height: auto;
   object-fit: cover;
-  max-width: 800px;
+  min-width: 320px;
+
+  @media (min-width: $tablet-width) {
+    max-width: 800px;
+  }
 }

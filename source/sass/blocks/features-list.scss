@@ -15,7 +15,7 @@
 }
 
 .features-list__item {
-  background-color: $white;
+  background-color: $grey;
 
   &--color {
     background-color: $blue;
@@ -24,13 +24,18 @@
 
 .features-list__wrapper {
   display: flex;
+  flex-direction: column;
   margin: 0;
+
+  @media (min-width: $tablet-width) {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 
 .features-list__text {
   background: url(../../img/features/features-list__text-triangle.svg) top no-repeat;
   min-width: 320px;
-  min-height: 211px;
   padding: 54px 31px 40px 26px;
 
   @media (min-width: $tablet-width) {
@@ -75,17 +80,9 @@
   }
 }
 
-.features-list__background {
-  background-color: $grey;
-}
-
 .features-list__image {
   display: block;
   height: auto;
   object-fit: cover;
   min-width: 320px;
-
-  @media (min-width: $tablet-width) {
-    max-width: 800px;
-  }
 }

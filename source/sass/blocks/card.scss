@@ -1,12 +1,38 @@
 .card {
+  display: flex;
+  flex-direction: column;
+  width: 280px;
   margin: 0;
   padding: 0;
   list-style: none;
+
+  @media (min-width: $tablet-width) {
+    width: 648px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+.card__item {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 280px;
+
+  @media (min-width: $tablet-width) {
+    width: 324px;
+    flex-direction: row;
+  }
+
+  &--road {
+    width: 648px;
+  }
 }
 
 .card__link {
   display: block;
   margin-bottom: 15px;
+  order: 2;
 }
 
 .card__name {

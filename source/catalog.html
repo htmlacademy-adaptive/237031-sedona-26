@@ -35,76 +35,91 @@
         </ul>
       </nav>
     </header>
-    <main class="page__main catalog">
+    <main class="page__main">
       <h1 class="visually-hidden">Достопримечательности городка Sedona</h1>
       <div class="intro intro--secondary">
         <img class="intro__wellcome-image" src="img/intro/sedona.svg" width="229" height="39"
           alt="Sedona.">
       </div>
-      <section class="catalog__info info">
+      <section class="catalog">
         <h2 class="visually-hidden">Галерея городка Sedona</h2>
-        <h3 class="info__title">Фото и видео</h3>
-        <p class="info__text">Не можете решиться на путешествие<br> из-за курса? Фотографии помогут вам забыть о
+        <div class="catalog__header">
+          <h3 class="catalog__title">Фото и видео</h3>
+          <p class="catalog__text">Не можете решиться на путешествие<br> из-за курса? Фотографии помогут вам забыть о
           политике и экономике.
-        </p>
-      </section>
-      <section class="catalog__gallery gallery">
-        <h2 class="visually-hidden">Галерея</h2>
-        <ul class="gallery__list card">
-          <li class="card__item card__item--road">
-            <a class="card__link" href="#">
-              <img class="card__image" src="img/gallery/vasts-image.jpg" width="280" height="280"
+          </p>
+        </div>
+        <ul class="catalog__list">
+          <li class="catalog__item catalog__item--road">
+            <div class="card">
+              <a class="card__link" href="#">
+                <img class="card__image" src="img/gallery/vasts-image.jpg" width="280" height="280"
                 alt="Фото дороги в городок Sedona.">
-            </a>
-            <h3 class="card__name">Народные просторы</h3>
-            <p class="card__author">Автор фото: Борис</p>
-            <div class="card__like">
-              <button class="card__like-button" type="button">
-                <span class="visually-hidden">Нравится</span>
-              </button>
-              <p class="card__like-count">1350</p>
+              </a>
+              <div class="card__footer">
+                <div class="card__description">
+                  <h3 class="card__name">Народные просторы</h3>
+                  <p class="card__author">Автор фото: Борис</p>
+                </div>
+                <button class="card__like-button" type="button">
+                  <span class="visually-hidden">Нравится</span>
+                  <p class="card__like-count">1350</p>
+                </button>
+              </div>
             </div>
           </li>
-          <li class="card__item">
-            <a class="card__link" href="#">
-              <img class="card__image" src="img/gallery/vegetation-image.jpg.jpg" width="280" height="280"
+          <li class="catalog__item">
+            <div class="card">
+              <a class="card__link" href="#">
+                <img class="card__image" src="img/gallery/vegetation-image.jpg.jpg" width="280" height="280"
                 alt="Местаная растительность городка Sedona.">
-            </a>
-            <h3 class="card__name">Местная растительность</h3>
-            <p class="card__author">Автор фото: Сергей</p>
-            <div class="card__like">
-              <button class="card__like-button" type="button">
-                <span class="visually-hidden">Нравится</span>
-              </button>
-              <p class="card__like-count">143</p>
+              </a>
+              <div class="card__footer">
+                <div class="card__description">
+                  <h3 class="card__name">Местная растительность</h3>
+                  <p class="card__author">Автор фото: Сергей</p>
+                </div>>
+                <button class="card__like-button" type="button">
+                  <span class="visually-hidden">Нравится</span>
+                  <p class="card__like-count">143</p>
+                </button>
+              </div>
             </div>
           </li>
-          <li class="card__item">
-            <a class="card__link" href="#">
-              <img class="card__image" src="img/gallery/road-image.jpg" width="280" height="280"
+          <li class="catalog__item">
+            <div class="card">
+              <a class="card__link" href="#">
+                <img class="card__image" src="img/gallery/road-image.jpg" width="280" height="280"
                 alt="Фото дороги на север.">
-            </a>
-            <h3 class="card__name">Дорога на север</h3>
-            <p class="card__author">Автор фото: Петр</p>
-            <div class="card__like">
-              <button class="card__like-button" type="button">
-                <span class="visually-hidden">Нравится</span>
-              </button>
-              <p class="card__like-count">96</p>
+              </a>
+              <div class="card__footer">
+                <div class="card__description">
+                  <h3 class="card__name">Дорога на север</h3>
+                  <p class="card__author">Автор фото: Петр</p>
+                </div>
+                <button class="card__like-button" type="button">
+                  <span class="visually-hidden">Нравится</span>
+                  <p class="card__like-count">96</p>
+                </button>
+              </div>
             </div>
           </li>
-          <li class="card__item">
-            <a class="card__link" href="#">
-              <img class="card__image" src="img/gallery/bridge-image.jpg" width="280" height="280"
+          <li class="catalog__item">
+            <div class="card">
+              <a class="card__link" href="#">
+                <img class="card__image" src="img/gallery/bridge-image.jpg" width="280" height="280"
                 alt="Фото моста дьявола.">
-            </a>
-            <h3 class="card__name">Мост дьявола</h3>
-            <p class="card__author">Автор фото: Антон</p>
-            <div class="card__like">
-              <button class="card__like-button" type="button">
-                <span class="visually-hidden">Нравится</span>
-              </button>
-              <p class="card__like-count">254</p>
+              </a>
+              <div class="card__footer">
+                <div class="card__description">
+                  <h3 class="card__name">Мост дьявола</h3>
+                  <p class="card__author">Автор фото: Антон</p>
+                </div>
+                <button class="card__like-button" type="button">
+                  <span class="visually-hidden">Нравится</span>
+                  <p class="card__like-count">254</p>
+                </button>
+              </div>
             </div>
           </li>
         </ul>

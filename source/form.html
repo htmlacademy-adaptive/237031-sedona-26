@@ -35,6 +35,7 @@
         </ul>
       </nav>
     </header>
+
     <main class="page__main">
       <div class="intro intro--secondary">
         <img class="intro__wellcome-image" src="img/intro/sedona.svg" width="229" height="39" alt="Sedona.">
@@ -46,17 +47,29 @@
           посещенных вами достопримечательностях
           </p>
         </div>
+
         <form class="feedback__form feedback-form" action="https://echo.htmlacademy.ru" method="post">
-          <fieldset class="feedback-form__container">
-            <legend class="feedback-form__title">Представьтесь</legend>
-            <label class="feedback-form__label" for="name">Имя*:</label>
-            <input class="feedback-form__input" type="text" name="name" id="name" placeholder="Пётр" required>
-            <label class="feedback-form__label" for="surname">Фамилия*:</label>
-            <input class="feedback-form__input" type="text" name="surname" id="surname" placeholder="Пустота" required>
-            <label class="feedback-form__label" for="patronymic">Отчество:</label>
-            <input class="feedback-form__input" type="text" name="patronymic" id="patronymic" placeholder="Викторович"
-              required>
+          <div class="feedback-form__container">
+            <fieldset class="feedback-form__group form-group">
+              <h2 class="form-group__title">Представьтесь</h2>
+              <div class="form-group__label-wrapper">
+                <label class="form-group__field text-field">
+                  <span class="text-field__label">Имя*:</span>
+                  <input class="text-field__input" type="text" name="name" placeholder="Пётр" required>
+                </label>
+
+                <label class="form-group__field text-field">
+                  <span class="text-field__label">Фамилия*:</span>
+                  <input class="text-field__input" type="text" name="surname" placeholder="Пустота" required>
+                </label>
+
+                <label class="form-group__field text-field">
+                  <span class="text-field__label">Отчество*:</span>
+                  <input class="text-field__input" type="text" name="midname" placeholder="Викторович" required>
+                </label>
+              </div>
           </fieldset>
+
           <fieldset class="feedback-form__container">
             <legend class="feedback-form__title">Контактная информация:</legend>
             <label class="feedback-form__label" for="phone">Контактный телефон*:</label>

@@ -2,6 +2,7 @@
 @import "./global/fonts.scss";
 @import "./global/variables.scss";
 @import "./global/global.scss";
+@import "./global/mixin.scss";
 
 //blocks
 @import "./blocks/page.scss";
@@ -19,9 +20,12 @@
 @import "./blocks/button.scss";
 @import "./blocks/video.scss";
 @import "./blocks/feedback.scss";
+@import "./blocks/form-group";
+@import "./blocks/text-field";
 @import "./blocks/catalog.scss";
 @import "./blocks/card.scss";
 @import "./blocks/feedback-form.scss";
-@import "./blocks/input-radio.scss";
-@import "./blocks/label-radio.scss";
+@import "./blocks/radio-field.scss";
+@import "./blocks/checkbox-field.scss";
+@import "./blocks/textarea-field.scss";
 @import "./blocks/location.scss";

@@ -1,6 +1,17 @@
+.feedback__header {
+  padding: 36px 20px 28px;
+
+  @media (min-width: $tablet-width) {
+    padding: 57px 0 105px;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 107px 0 68px;
+  }
+}
+
 .feedback__title {
-  margin-top: 0;
-  margin-bottom: 24px;
+  margin: 0 0 25px 0;
 
   text-transform: uppercase;
   text-align: center;
@@ -8,10 +19,15 @@
   font-size: 18px;
   line-height: 26px;
   font-weight: 700;
+
+  @media (min-width: $tablet-width) {
+    font-size: 30px;
+    line-height: 26px;
+  }
 }
 
 .feedback__description {
-  margin-bottom: 28px;
+  margin-bottom: 25px;
 
   text-transform: uppercase;
   text-align: center;

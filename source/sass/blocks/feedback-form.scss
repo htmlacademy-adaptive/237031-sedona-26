@@ -41,12 +41,13 @@
   margin-bottom: 56px;
 
   height: auto;
-    &::placeholder {
-      font-style: $main-font;
-      font-size: 18px;
-      line-height: 26px;
-      font-weight: 700;
-      color: $extra-black;
+
+  &::placeholder {
+    font-style: $main-font;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 700;
+    color: $extra-black;
   }
 }
 

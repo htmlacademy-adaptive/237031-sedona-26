@@ -1,8 +1,15 @@
 .main-header {
   display: flex;
   flex-direction: column;
+  background-color: $white;
 }
 
 .main-header__logo {
+  position: absolute;
+  left: 0;
+  right: 0;
   height: 96px;
+  text-align: center;
+  order: 2;
+  z-index: 1;
 }

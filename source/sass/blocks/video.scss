@@ -1,6 +1,19 @@
 .video {
   text-align: center;
   text-transform: uppercase;
+  margin-bottom: 28px;
+
+  @media (min-width: $tablet-width) {
+    margin-bottom: 76px;
+  }
+
+  @media (min-width: $desktop-width) {
+    margin-bottom: 120px;
+  }
+}
+
+.video__image {
+  width: 100%;
 }
 
 .video__info {

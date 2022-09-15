@@ -1,5 +1,8 @@
+.location {
+  margin-bottom: 39px;
+}
+
 .location__map-image {
-  position: relative;
-  display: block;
-  margin: 0 auto;
+  width: 100%;
+  object-fit: cover;
 }

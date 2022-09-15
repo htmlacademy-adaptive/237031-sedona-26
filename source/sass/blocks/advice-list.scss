@@ -1,6 +1,73 @@
 .advice-list {
+  display: flex;
+  flex-direction: column;
   margin: 0;
   padding: 0;
   list-style: none;
+  text-align: center;
+
+  @media (min-width: $desktop-width) {
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.advice-list__item {
+  min-width: 320px;
+  padding: 23px 19px 23px 65px;
   background-color: $white;
+  text-align: left;
+
+  @media (min-width: $tablet-width) {
+    width: 256px;
+    padding: 158px 73px 59px 36px;
+  }
+
+  @media (min-width: $desktop-width) {
+    width: 400px;
+    padding: 158px 104px 79px 60px;
+  }
+}
+
+.advice-list__title {
+  position: relative;
+  margin-top: 0;
+  margin-bottom: 26px;
+
+  &--house::before {
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    left: -50px;
+    width: 72px;
+    height: 75px;
+    background-image: url("../../img/advice/house.svg");
+    background-repeat: no-repeat;
+    content: "";
+  }
+
+  &--burger::before {
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    left: -50px;
+    width: 72px;
+    height: 75px;
+    background-image: url("../../img/advice/burger.svg");
+    background-repeat: no-repeat;
+    content: "";
+  }
+
+  &--suvenir::before {
+    position: absolute;
+    top: -15px;
+    bottom: 0;
+    left: -50px;
+    width: 72px;
+    height: 75px;
+    background-image: url("../../img/advice/suvenir.svg");
+    background-repeat: no-repeat;
+    content: "";
+  }
 }

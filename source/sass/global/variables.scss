@@ -11,13 +11,26 @@ $light-grey: #f2f2f2;
 $extra-grey: #e6e6e6;
 $dark-grey: #e5e5e5;
 $special-grey: #d5d5d5;
-$extra-blue: #669ec0;
+$hover-color: #669ec0;
 $dark-blue: #5496bd;
 $silver: rgba(51, 51, 51, 0.6);
+$fontPrimaryColor: rgba(51, 51, 51, 1);
+$mobileBorderColor: rgba(229, 229, 229, 1);
+$desktopBorderColor: rgba(219, 219, 219, 1);
+$titleColor: rgba(0, 0, 0, 1);
+$containerBackgroundColor: rgba(255, 255, 255, 1);
+$inputColor: rgba(242, 242, 242, 1);
+$hoverInput: rgba(229, 229, 229, 1);
+$active-color: #5496bd;
+$menu-current-color: #766357;
+$item-line-color: #d6d6d6;
+$active-icon-color: #b3b3b3;
+$line-color: #dbdbdb;
 
 // Fonts
 $main-font: "PT Sans", "Arial", sans-serif;
 
 // Viewports
 $tablet-width: 768px;
-$desktop-width: 1280px;
+$desktop-width: 1200px;
+$mobile-width-only: 767px;

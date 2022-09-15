@@ -1,10 +1,8 @@
 .intro {
-  padding: 90px 20px 85px;
-  box-sizing: border-box;
-  width: 100%;
-  margin-bottom: 32px;
+  position: relative;
+  background-color: $light-grey;
   background: url("../../img/intro/intro-triangle.svg") bottom no-repeat,
-    url("../../img/intro/back-mobile.jpg") bottom/auto 100% $accent-blue;
+    url("../../img/intro/back-mobile.jpg") center 100% no-repeat $white;
 
   @media (min-width: $tablet-width) {
     padding: 77px 20px 90px;
@@ -16,13 +14,18 @@
 
   &--secondary {
     padding: 52px 45px 67px;
-    background-size: auto, 1200px auto;
-    background-position: bottom, 50% 80%;
+    background-size: auto, 902px auto;
+    background-position: bottom, 50% 100%;
   }
 
   @media (min-width: $tablet-width) {
-    padding: 100px 45px 120px;
+    padding: 95px 45px 117px;
+    background-size: auto, 1200px auto;
     background-position: bottom;
+  }
+
+  @media (min-width: $desktop-width) {
+    padding: 101px 45px 122px;
   }
 }
 
@@ -32,6 +35,6 @@
   height: auto;
 
   @media (min-width: $tablet-width) {
-    width: 461px;
+    width: 460px;
   }
 }

@@ -1,8 +1,4 @@
-.card {
-  margin: 0;
-  padding: 0;
-  list-style: none;
-}
+
 
 .card__link {
   display: block;
@@ -26,4 +22,10 @@
 .card__like-count {
   margin-bottom: 25px;
   font-weight: 700;
+}
+
+.card__description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }

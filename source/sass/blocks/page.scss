@@ -1,8 +1,10 @@
 .page__container {
-  width: 1200px;
-  margin: 0 auto;
-  background-color: $white;
-  box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
+  @media (min-width: $tablet-width) {
+    width: 1200px;
+    margin: 0 auto;
+    background-color: $white;
+    box-shadow: 0 5px 15px rgba(0, 1, 1, 0.2);
+  }
 }
 
 .page__main {

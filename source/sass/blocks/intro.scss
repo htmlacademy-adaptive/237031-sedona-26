@@ -1,6 +1,6 @@
 .intro {
-  min-height: 158px;
-  margin-bottom: 32px;
+  position: relative;
+  background-color: $light-grey;
   background: url("../../img/intro/intro-triangle.svg") bottom no-repeat,
     url("../../img/intro/back-mobile.jpg") center 100% no-repeat $white;
 
